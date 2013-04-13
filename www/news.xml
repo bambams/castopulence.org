@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="master.xsl"?>
+<csc:content
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:csc="http://castopulence.org/2010/03/content-page"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <csc:heading>News</csc:heading>
+    <csc:entry id="news_entry_2">
+        <csc:title>No News</csc:title>
+        <csc:body>
+            <p>There really hasn't been much happening as I *ahem* "we"
+                have been busy with j0rbing and such. As far as
+                Castopulence goes, not much has changed.</p>
+            <p>The Web server host has been changed twice since the last
+                update. Originally, some online acquaintances offered to
+                group together on a shared dedicated server, so I *ahem*
+                "we" decided to opt into that. That meant cancelling the
+                original VPS (virtual private server) package.</p>
+            <p>Unfortunately, my original-original VPS host
+                <!--1and1-->
+                ended up sucking hard and being a jerk about the whole
+                thing. Basically, when I *ahem* "we" originally
+                registered our domain names we had no hosting. Some
+                experimentation was done from the local network using
+                dynamic DNS services to map the domain names to the ever
+                changing IP. Eventually, a VPS was ordered and hosting
+                was moved to there. Some time later the domain names were
+                transferred from the original registrar to the VPS host
+                to make things simpler. Then when I wanted to cancel my
+                VPS service my host <!--1and1--> told me that my
+                domains were grouped into the same package as my VPS and
+                cancelling my VPS would mean that I'd have to re-register
+                my domains in order to keep them; <strong>even though
+                they didn't expire for about a year</strong>! I don't know
+                if that's even legal, but it was clear that the host
+                <!--1and1--> sucked and that I *ahem*
+                "we" didn't want to deal with them anymore. Since we'd
+                have to pay anyway, we opted to transfer our domains to a
+                new registrar. Once that was done, we cancelled our VPS
+                package and moved to the shared dedicated server.</p>
+            <p>Though our share of the dedicated server was no more
+                expensive than our original hosting, it became clear that
+                it just wasn't worth the money (no offense to the group!).
+                <!--OK, I moved into my own apartment and was looking for
+                ways to save money.--> All we really need right now is a
+                simple, static Web server. So we decided to stop hosting
+                at all for a couple of months to save some money and
+                evaluate things. Then we realized that we could get a
+                plenty sufficient host for a reasonable rate and here we
+                are again.</p>
+            <p>As far as software goes, it's hard to say just what has
+                been done since the last update from Castopulence's point
+                of view. There has been some minor contributions to some
+                Allegro community projects. Brandon <!--Is
+                referring to yourself in the third person really so
+                bad?--> contributed some minor features to <a
+                href="http://github.com/bamccaig/Cumulate"
+                class="external">Cumulate</a>, a
+                collaborative project that is itself a game: a single
+                developer at a time is scheduled to add any single
+                feature that they choose to the project, the goal being
+                that it incrementally gets more and more complete. It was
+                somewhat of an experiment, I think, and it's unfortunately
+                gone stale for the moment. Somebody go contribute!</p>
+            <p>The official repository for Cumulate is <a
+                href="http://github.com/trezker/Cumulate"
+                class="external">here</a>.</p>
+            <p>Another Allegro community project, Monday, has been
+                "revived" by being transferred from a private Subversion
+                repository to GitHub. We never actually contributed
+                anything originally, though a developer console was
+                planned. Some minor work has been done to update the
+                Allegro 5 bindings so it will compile with the stable
+                release of Allegro 5 (the original project was started
+                back in 2008 when Allegro 5 was still very unstable). It
+                still needs some work in that regard. It seems a number
+                of community members were happy to see it preserved so
+                maybe somebody will find the time and motivation to
+                continue work on it now that it's been dusted off.</p>
+            <p>Some contributions were also added to another
+                collaborative Allegro community project. It is intended to
+                be a platform independent clipboard library. It's code can
+                also be found at <a
+                href="http://github.com/bamccaig/clipboard"
+                class="external">GitHub</a>.
+                The official repository is <a
+                href="http://github.com/trezker/clipboard"
+                class="external">here</a>.
+                It's not very far along and somewhat of a hack, but
+                eventually it might lead to something good. Last I heard
+                there was some effort being put into interfacing between
+                Allegro bitmaps and the clipboard.</p>
+            <p>A little bit further back, a very simple animation library
+                based on Allegro 4 was developed in response to a thread
+                on <a href="http://www.allegro.cc"
+                class="external">allegro.cc</a>. It's
+                called "al4anim" and can be found on <a
+                href="http://github.com/bamccaig/al4anim"
+                class="external">GitHub</a>.
+                A more complicated project has been started with initial
+                Allegro 5 bindings. The code hasn't been fully released
+                yet. It is a more abstract game framework that will
+                hopefully make future game projects easier to organize and
+                develop. Maybe it will even become something that the
+                Allegro community can benefit from. It would be nice to
+                give something more substantial back. With zero games in
+                the depot it wouldn't hurt to have something to refer to.
+                :P</p>
+            <p>I guess that's it for now. Maybe someday soon we will find
+                time to make some progress on a more serious project. Wish
+                us luck!</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="news_entry_1">
+        <csc:title>Web Site Development</csc:title>
+        <csc:body>
+            <p>After a very long time sitting idle, the Web site is
+                finally starting to take shape with some content.
+                <tt>^_^</tt> The site is currently "static" and I'm
+                debating whether or not to write scripts to modify the
+                XML or to generate the XML from a database and then build
+                a frontend for that. It seems the only data that
+                currently can't exist in a static form is a friendly date
+                representation, such as "Two hours ago", but a custom tag
+                in the XML source data could provide the PHP "engine"
+                with all it needs to preprocess the XML before passing it
+                on to the XSL processor and ultimately the client. It's a
+                WIP. We'll see what comes of it as I slowly get around to
+                filling in the pages. <tt>&gt;_&gt;</tt> It would respond
+                to client requests faster if the XSL output was cached,
+                so that's another feature that might be implemented in
+                the near future.</p>
+        </csc:body>
+    </csc:entry>
+</csc:content>
+

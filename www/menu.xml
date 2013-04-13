@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns="http://castopulence.org/devel/2010/02/menu">
+    <item name="News" uri="news" />
+    <item name="Projects" uri="projects" />
+    <item name="Downloads" uri="downloads" />
+    <item name="About" uri="about" />
+    <item name="Contact" uri="contact" />
+    <item name="Donate" uri="donate" />
+</menu>
+

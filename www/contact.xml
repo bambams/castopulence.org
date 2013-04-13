@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="master.xsl"?>
+<csc:content
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:csc="http://castopulence.org/2010/03/content-page">
+    <csc:heading>Contact</csc:heading>
+    <csc:entry id="contact_entry_1">
+        <csc:title>Disclaimer</csc:title>
+        <csc:body>
+            <p>To protect ourselves from spam, we use
+                <a class="external"
+                        href="http://recaptcha.net/">reCAPTCHA</a> to
+                shield our E-mail addresses from bots. Please note that
+                this page was hacked up quickly and isn't very
+                user-friendly. It will hopefully get better in the future
+                when we can find time to improve it.</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="contact_entry_2">
+        <csc:title>General Inquiries/Brandon McCaig</csc:title>
+        <csc:body>
+            <p>General inquiries can be addressed to Brandon McCaig
+                himself. Click
+                <a class="nodialog external"
+                        href="http://mailhide.recaptcha.net/d?k=01P7VYod_J0JfLVV7Y06ghIg==&amp;c=JPqZ2QuT4JNsCNEVApR7oVUSbx3frxuhHRdShW5rC6s=">here</a>
+                and follow the instructions to retrieve the appropriate
+                E-mail address.</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="contact_entry_3">
+        <csc:title>Web Site Administration/Security</csc:title>
+        <csc:body>
+            <p>If you have questions or concerns for the administrators of
+                the Web server or Web site then you can address them
+                specifically. They'll go to the same person as general
+                inquiries, but this allows them to stand out better in
+                the mailbox. <tt>^_^</tt>. Click
+                <a class="nodialog external"
+                        href="http://mailhide.recaptcha.net/d?k=012wCMjY9Hwz6Sb5mNnnzvng==&amp;c=4t-svgg0fwgQQ1hTHRNaW1HuDBLaS33XVfFEsSFbdIM=">here</a>
+                and follow the instructions to retrieve the appropriate
+                E-mail address.</p>
+        </csc:body>
+    </csc:entry>
+</csc:content>
+

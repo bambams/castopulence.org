@@ -1,0 +1,57 @@
+<!ENTITY % xhtml1-strict-dtd PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+%xhtml-strict-dtd;
+
+<!ELEMENT content (
+        heading,
+        entry+)>
+
+<!ELEMENT heading (
+        #PCDATA)>
+
+<!ELEMENT entry (
+        title,
+        author?,
+        last-updated-date?,
+        body)>
+<!ATTLIST entry
+        id CDATA #REQUIRED>
+
+<!ELEMENT title (
+        #PCDATA)>
+
+<!ELEMENT author EMPTY>
+<!ATTLIST author
+        username CDATA #REQUIRED>
+
+<!ELEMENT last-updated-date (
+        #PCDATA)>
+<!ATTLIST last-updated-date
+        absolute CDATA #REQUIRED>
+
+<!ELEMENT body (
+        address,
+        blockquote,
+        del,
+        div,
+        dl,
+        fieldset,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        hr,
+        ins,
+        noscript,
+        ol,
+        p,
+        pre,
+        script,
+        table,
+        ul)+>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="master.xsl"?>
+<csc:content
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:csc="http://castopulence.org/2010/03/content-page">
+    <csc:heading>Donate</csc:heading>
+    <csc:entry id="donate_entry_1">
+        <csc:title>Not Accepting Donations At This Time</csc:title>
+        <!--
+            The date might be a good application for an imported XSL
+            document if I can figure out XSL to transform a date into a
+            string like 'Three hours ago' when the date is less than a
+            given unit, etc.
+        -->
+        <csc:body>
+            <p>Currently we don't feel we're working on anything worthy of
+            donations (not all projects listed on the project page are
+            being actively developed yet) so there is currently no way to
+            donate. If you <em>really</em> want to anyway (maybe you don't
+            like money and want to get rid of it) you can <a
+                href="contact">contact us</a> to
+            find out how. <tt>;)</tt></p>
+        </csc:body>
+    </csc:entry>
+</csc:content>
+

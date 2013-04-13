@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="master.xsl"?>
+<csc:content
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:csc="http://castopulence.org/2010/03/content-page">
+    <csc:heading>Projects</csc:heading>
+    <csc:entry id="project_entry_1">
+        <csc:title>Introduction</csc:title>
+        <csc:body>
+            <p>Castopulence is not currently actively developing software
+                (since it's not really an organization yet; see the <a
+                    href="/about">About Page</a>). Development of
+                projects occurs during developer free time, assuming
+                they have the energy and motivation to do so. <tt>:D</tt>
+                The projects listed here are some of the small projects
+                that have been proposed or developed by Castopulence
+                members in the recent past. If they're useful to you then
+                great, but don't expect much just yet. <tt>^_^</tt></p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="project_entry_2">
+        <csc:title>rot</csc:title>
+        <csc:body>
+            <p>rot is a simple little console application that implements
+                arbitrary rotation-based ciphers on textual streams. It
+                supports rot13 and rot47, and is flexible enough to
+                support many custom ciphers as well, based on the same
+                rules of defining character ranges to rotate a given
+                number of characters.</p>
+            <p>The code was originally written in Cygwin, a UNIX-like
+                environment for Windows, though it should be mostly
+                cross-platform. The current repository only has a
+                rudimentary <del>shell script</del><ins>Makefile</ins>
+                to build it, however, so if your platform doesn't support
+                the <del>shell script</del><ins>Makefile</ins> (or it
+                just doesn't work properly on your platform) then you may
+                have to build it manually. If it's of any use to you then
+                you probably already know how to do this. If not, <a
+                    href="/contact">contact us</a> and motivate us to
+                write a platform independent <span
+                    class="filesystem-path">Makefile</span>, release a
+                binary build for your platform, or at least provide you
+                with some guidance for building one yourself.</p>
+            <p>The project is hosted at GitHub. The source code can be
+                retrieved from there: <a class="external"
+                    href="http://github.com/bamccaig/rot">http://github.com/bamccaig/rot</a>.</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="project_entry_3">
+        <csc:title>Myt</csc:title>
+        <csc:body>
+            <p>Myt is intended to be a secure messaging platform that
+                fights spam through encryption and server communication.
+                Far from being complete (at the time of the writing there
+                is basically just a stub application with proposed command
+                line options), it is merely a proposal based on the
+                frustration of being unable to hand out E-mail addresses
+                at will. Myt would support both E-mail and instant
+                messaging facilities to start. Extended functionality,
+                like voice/video chat may follow, but that's looking a
+                long way into the future.</p>
+            <p>Firstly, Myt would guarantee a secure connection (or at
+                least each connection would be encrypted). This means that
+                messages sent through Myt should be able to safely
+                contain things like passwords or personal information
+                (though just because it <em>could</em> doesn't mean it
+                <em>has</em> to).</p>
+            <p>Secondly, Myt would hold hosts responsible for the messages
+                they send. In particular, when a Myt server receives a
+                message, it will contact the alleged sender to request
+                confirmation that they actually sent the message on behalf
+                of the specified user. If the server doesn't confirm
+                sending it then the message is discarded before the user
+                is even aware of it. This should help to prevent spoofing
+                of the sender.</p>
+            <p>Thirdly, Myt would maintain a network of whitelisted and
+                blacklisted servers and users, managed by a peered
+                network of trusted servers, to help automatically block
+                messages from known spammers across the entire network.
+                If user <em>A</em> on server <em>B</em> flags a message
+                from user <em>C</em> on server <em>D</em> then it would
+                log the event by user, server, and message; and
+                communicate the event to a centralized network. Given a
+                certain threshold of reports, the message would become
+                automatically flagged as spam and filtered appropriately.
+                Similarly, given enough reported spam messages from a
+                particular user or host, the respective user or host would
+                find themselves flagged as spammers across the network and
+                respectively blacklisted.</p>
+            <p>In addition to the server managed lists, users could also
+                maintain their own lists. Either a blacklist, or perhaps
+                more conveniently, a <em>whitelist</em>. What this means
+                is that merely having an E-mail address would be
+                insufficient for actually contacting a user. They would
+                need to have explicitly allowed communication from you
+                first. This would cut down on spam because it requires a
+                mutual desire to communicate between nodes.</p>
+            <p>Consider, for example, the very regular occurrence of Web
+                site registrations that require a valid E-mail address.
+                You don't really want to provide that information because
+                for all you know the Web site will share the information,
+                often for money, with third parties that will then spam
+                you. With a whitelist based model, they would have to
+                explicitly tell you each and every address that they
+                intend to contact you with. You can easily filter them
+                because you know exactly what they are. At the very first
+                sign of spam, you can also easily remove the address from
+                the whitelist, essentially revoking their privileges to
+                contact you.</p>
+            <p>Myt is mostly just an informal proposal right now. It's
+                a work in progress. If you have ideas or concerns, feel
+                free to <a href="/contact">contact us</a> to let us know
+                what you think.</p>
+            <p>The existing source code for Myt is hosted on GitHub: <a
+                    class="external"
+                    href="http://github.com/bamccaig/Myt">http://github.com/bamccaig/Myt</a>.</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="project_entry_4">
+        <csc:title>[Cross-platform Software Package Manager]</csc:title>
+        <csc:body>
+            <p>This "project" is currently just in the idea stage.
+                Essentially, the goal is to develop a package format based
+                on open technologies (XML, tar, gzip or xz). Then create a
+                package manager application for the major desktop platforms
+                (Linux, Windows, and Mac OS X; others of course can
+                follow).</p>
+            <p>The package would be installed by following a set of
+                reversible instructions inside of a [valid] XML file. The
+                uninstall process would be determined by reversing the
+                installation instructions (and hopefully guaranteed to
+                succeed).</p>
+            <p>If something doesn't work properly though, the package
+                itself would be a simple compressed archive and plaintext
+                XML. You could easily open it up and see what it's trying
+                to do (or undo) and do it yourself.</p>
+            <p>For efficiency's sake, platforms that have disorganized
+                file system structures (i.e., Windows) would use an
+                organized hierarchy within the mess. For example,
+                something like this:</p>
+            <ul>
+                <li>
+                    C:\Program Files\<em>PROJECTROOT</em>\
+                    <ul>
+                        <li>bin <em>(for executables, single path added to
+                            <span class="env">PATH</span>)</em></li>
+                        <li>include <em>(for C/C++ header files)</em></li>
+                        <li>lib <em>(for static and/or shared
+                            libraries)</em></li>
+                    </ul>
+                </li>
+            </ul>
+            <p>The XML file that describes the installation process would
+                use built in 'commands' that are considered safe and
+                automatically reversible (this may require version control
+                to manage previous states). Using standard packages would
+                allow users to have confidence in the package. They can
+                easily open it up and see what it does and trust that it
+                can only do safe things. This concept will probably break
+                with source packages though. Even then, however, the hope
+                is that the XML can describe the build process in a safe
+                and platform-independent way (without referring to any
+                specific system commands) so that the process is somewhat
+                controlled.</p>
+            <p>Unsafe packages would be supported that are free to do
+                whatever they want, but the package manager would require
+                explicit options from the user to allow them. They'd
+                otherwise fail with an ugly error message.</p>
+            <p>As you can see, it's a very informal mess of ideas right
+                now. <tt>:P</tt></p>
+        </csc:body>
+    </csc:entry>
+</csc:content>
+

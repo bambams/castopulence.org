@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="master.xsl"?>
+<!--<!DOCTYPE content PUBLIC
+        "http://castopulence.org/2010/03/content-page"
+        "http://castopulence.org/content.dtd">-->
+<csc:content
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:csc="http://castopulence.org/2010/03/content-page">
+    <csc:heading>Downloads</csc:heading>
+    <csc:entry id="download_entry_1">
+        <csc:title>No Downloads</csc:title>
+        <csc:body>
+            <p>There are no downloads available at this time. Project
+                source code can be downloaded from each project's
+                respective GitHub repository (or directly from the GitHub
+                Web site). See the <a
+                    href="/projects">Project Page</a> for information on
+                GitHub repositories.</p>
+        </csc:body>
+    </csc:entry>
+</csc:content>
+

@@ -1,0 +1,318 @@
+a
+{
+    color: #5BAB9C;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body
+{
+    background-color: white;
+    color: black;
+    font-family: "Courier New", monospace;
+}
+
+del
+{
+    display: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+{
+    color: black;
+    text-decoration: none;
+}
+
+img
+{
+    border-width: 0;
+}
+
+ins
+{
+    text-decoration: none;
+}
+
+.botfood
+{
+    display: none;
+}
+
+.hacker-emblem
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.not_implemented
+{
+    display: none;
+}
+
+.cursor
+{
+    text-decoration: blink;
+}
+
+#header h1
+{
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header #navigation
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#header #navigation ul
+{
+    list-style: none;
+}
+
+#header #navigation li
+{
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#header #navigation a
+{
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-color: transparent;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: 0.1em;
+    color: gray;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+#header #navigation a:hover
+{
+    border-color: black;
+    color: black;
+}
+
+#header #navigation li.current a
+{
+    color: black;
+    cursor: default;
+    text-decoration: underline;
+}
+
+#header #navigation li.current a:hover
+{
+    text-decoration: none;
+}
+
+#footer #copyright
+{
+    color: darkgray;
+}
+
+#footer p
+{
+    font-size: 0.75em;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sidebar
+{
+    -moz-border-radius-topleft: 1.75em;
+    -moz-border-radius-bottomright: 1.75em;
+    -webkit-border-top-left-radius: 1.75em;
+    -webkit-border-bottom-right-radius: 1.75em;
+    background-color: #72D6C3;
+    border: 0.1em solid #72D6C3;
+    border-radius: 1.75em;
+/*    display: inline; */
+    margin-left: 3em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#table-of-contents
+{
+    -moz-border-radius-topleft: 1.75em;
+    -moz-border-radius-bottomright: 1.75em;
+    -webkit-border-top-left-radius: 1.75em;
+    -webkit-border-bottom-right-radius: 1.75em;
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 1.75em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#table-of-contents *
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-of-contents ol,
+#table-of-contents ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+#table-of-contents ol a,
+#table-of-contents ul a
+{
+    font-weight: normal;
+}
+
+#table-of-contents ol a:hover,
+#table-of-contents ul a:hover
+{
+    text-decoration: underline;
+}
+
+#content
+{
+    -moz-border-radius-topleft: 1.75em;
+    -moz-border-radius-bottomright: 1.75em;
+    -webkit-border-top-left-radius: 1.75em;
+    -webkit-border-bottom-right-radius: 1.75em;
+    background-color: #72D6C3;
+    border: 0.1em solid black;
+    border-radius: 1.75em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#content #content_header
+{
+    -moz-border-radius-topleft: 1.75em;
+    -moz-border-radius-bottomright: 1.75em;
+    -webkit-border-top-left-radius: 1.75em;
+    -webkit-border-bottom-right-radius: 1.75em;
+    background-color: white;
+    border-radius: 1.75em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+}
+
+#content #content_header h2
+{
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+#content .content_entry
+{
+    -moz-border-radius-topleft: 1.75em;
+    -moz-border-radius-bottomright: 1.75em;
+    -webkit-border-top-left-radius: 1.75em;
+    -webkit-border-bottom-right-radius: 1.75em;
+    background-color: white;
+    border: 0.1em solid black;
+    border-radius: 1.75em;
+    margin: 1.75em;
+}
+
+#content .content_entry_body
+{
+    margin: 0.75em;
+}
+
+#content .content_entry_header
+{
+    margin: 0.75em;
+}
+
+#content .content_entry_header h3
+{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#content .content_entry_header a:hover
+{
+    text-decoration: underline;
+}
+
+#content .content_entry_author
+{
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+#content .content_entry_date
+{
+    border: 0.2em dotted orange;
+    float: right;
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+.ieDisclaimer
+{
+    background-color: #FBF9EE;
+    border: 1px solid #FCEFA1;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+
+.ieDisclaimer h3,
+.ieDisclaimer p,
+.ieDisclaimer ul
+{
+    font-size: 0.9em;
+    margin: 1em;
+}
+
+.code-comment
+{
+    color: green;
+    font-family: "Courier New", monospace;
+    white-space: pre;
+}
+
+/* h4x: temporary styles for demanddemocraticdebates_banner ... */
+#demanddemocraticdebates_banner
+{
+    border: 2px dotted green;
+    font-size: 0.75em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+}
+
+#demanddemocraticdebates_banner img
+{
+    height: 90;
+    width: 728;
+}
+
+#demanddemocraticdebates_banner p
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+

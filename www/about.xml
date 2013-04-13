@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="master.xsl"?>
+<csc:content
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:csc="http://castopulence.org/2010/03/content-page">
+    <csc:heading>About</csc:heading>
+    <csc:entry id="about_entry_1">
+        <csc:title>The Name "Castopulence"</csc:title>
+        <csc:body>
+            <p>The name "Castopulence" was thought up by Brandon McCaig
+                and derives from the words "cast" and "opulence". The
+                former, meaning "throw" or "launch", was partially
+                inspired by the
+                <a class="external"
+                        href="http://en.wikipedia.org/wiki/Final_Fantasy">Final
+                    Fantasy</a> video game series, and in particular,
+                <a class="external"
+                        href="http://en.wikipedia.org/wiki/Final_Fantasy_VII">Final
+                    Fantasy VII</a> (from casting "magic spells" through
+                <a class="external"
+                        href="http://en.wikipedia.org/wiki/Gaia_%28Final_Fantasy_VII%29#Materia">materia</a>).
+                The latter meaning "wealth" (or "abundant supply"), which
+                I guess is just something to desire.
+                <tt>&gt;_&gt;</tt></p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="about_entry_2">
+        <csc:title>What Are We?</csc:title>
+        <csc:body>
+            <p>At the moment, just a dream. <tt>^_^</tt> In the future,
+                we're hoping to someday become an official non-profit
+                organization that develops
+                <a class="external"
+                        href="http://en.wikipedia.org/wiki/Free_and_open_source_software">free/libre/open
+                    source softare (FLOSS)</a>. For that to happen, we
+                need to figure out how to either make a living doing it
+                or find enough free time to make it happen outside of
+                employment.</p>
+            <p>Want to help? <a href="/contact">Give us suggestions</a>
+                or <a href="/donate">donate some money</a>!
+                <tt>:P</tt></p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="about_entry_3">
+        <csc:title>Who Are We?</csc:title>
+        <csc:body>
+            <p>The only "official" member is Brandon McCaig, the mastermind
+                <tt>;)</tt> behind this "organization" and the author of
+                this Web site. He has a Computer Programmer/Analyst
+                diploma from Sault College of Applied Arts and Technology
+                in Sault Ste. Marie, Ontario, Canada. He's currently
+                employed in Sault Ste. Marie, primarily as a Web
+                application developer. Outside of work, he explores the
+                world of GNU/Linux and FLOSS, working towards honing his
+                skills for the future.</p>
+            <p>Other potential members shall remain nameless until they've
+                opted to be mentioned here. <tt>^_^</tt></p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="about_entry_4">
+        <csc:title>Where Are We?</csc:title>
+        <csc:body>
+            <p>Castopulence currently has no fixed address. The member(s)
+                all live in the Sault Ste. Marie, Ontario, Canada area,
+                if that answers your question.</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="about_entry_5">
+        <csc:title>Can You Develop Software For Me?</csc:title>
+        <csc:body>
+            <p>That depends. It won't hurt to contact us.</p>
+        </csc:body>
+    </csc:entry>
+    <csc:entry id="about_entry_6">
+        <csc:title>How Can I Contact You?</csc:title>
+        <csc:body>
+            <p>Your best bet is to try the
+                <a href="/contact">Contact
+                    Page</a>. We'll do our best to respond to any
+                correspondence that we receive.</p>
+        </csc:body>
+    </csc:entry>
+</csc:content>
+
