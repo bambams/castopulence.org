@@ -31,21 +31,21 @@
                     <h1>Castopulence Software</h1>
                     <div id="navigation">
                         <ul>
-                            <li>
+			    <!--<li>
                                 <xsl:if test="csc:heading = 'News'">
                                     <xsl:attribute name="class">
                                         <xsl:value-of select="'current'" />
                                     </xsl:attribute>
                                 </xsl:if>
-                                <a href="news">News</a>
-                            </li>
+                                <a href="news.html">News</a>
+			    </li>-->
                             <li>
                                 <xsl:if test="csc:heading = 'Projects'">
                                     <xsl:attribute name="class">
                                         <xsl:value-of select="'current'" />
                                     </xsl:attribute>
                                 </xsl:if>
-                                <a href="projects">Projects</a>
+                                <a href="projects.html">Projects</a>
                             </li>
                             <li>
                                 <xsl:if test="csc:heading = 'Downloads'">
@@ -53,7 +53,7 @@
                                         <xsl:value-of select="'current'" />
                                     </xsl:attribute>
                                 </xsl:if>
-                                <a href="downloads">Downloads</a>
+                                <a href="downloads.html">Downloads</a>
                             </li>
                             <li>
                                 <xsl:if test="csc:heading = 'About'">
@@ -61,7 +61,7 @@
                                         <xsl:value-of select="'current'" />
                                     </xsl:attribute>
                                 </xsl:if>
-                                <a href="about">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <li>
                                 <xsl:if test="csc:heading = 'Contact'">
@@ -69,11 +69,11 @@
                                         <xsl:value-of select="'current'" />
                                     </xsl:attribute>
                                 </xsl:if>
-                                <a href="contact">Contact</a>
+                                <a href="contact.html">Contact</a>
                             </li>
                             <xsl:comment>Personal blog though...</xsl:comment>
                             <li>
-                                <a href="http://www.bamccaig.com/"
+                                <a href="http://www.bambams.ca/"
                                         class="external">Blog</a>
                             </li>
                             <xsl:comment>...End of personal blog.</xsl:comment>
@@ -83,7 +83,7 @@
                                         <xsl:value-of select="'current'" />
                                     </xsl:attribute>
                                 </xsl:if>
-                                <a href="donate">Donate</a>
+                                <a href="donate.html">Donate</a>
                             </li>
                         </ul>
                     </div>
@@ -171,11 +171,11 @@
                     </xsl:for-each>
                 </div>
                 <div id="footer">
-                    <p id="copyright">Copyright &#169; 2009-2012 Brandon McCaig</p>
+                    <p id="copyright">Copyright &#169; 2009-2015 Brandon McCaig</p>
                     <xsl:comment>Written with Vim. ;D</xsl:comment>
                     <p>
                         <a href="http://validator.w3.org/check?uri=referer">
-                            <img src="img/valid-xhtml10"
+                            <img src="img/valid-xhtml10-blue"
                                     alt="Valid XHTML 1.0 Strict"
                                     height="31" width="88" />
                         </a>
@@ -187,7 +187,7 @@
                         |0|0|0|
                         </xsl:comment>
                         <a href="http://www.catb.org/hacker-emblem/">
-                            <img src="http://www.catb.org/hacker-emblem/glider.png" alt="hacker emblem" />
+                            <img src="/img/glider.png" alt="hacker emblem" />
                         </a>
                     </div>
                 </div>

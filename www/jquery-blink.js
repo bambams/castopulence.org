@@ -1,26 +1,24 @@
-(function($) {
-	$.fn.blink = function(options) {
+(function($)
+{
+	$.fn.blink = function(options)
+	{
 		var defaults = { delay:500 };
-
-		options = $.extend(defaults, options);
-
-		this.each(function() {
+		var options = $.extend(defaults, options);
+		
+		return this.each(function()
+		{
 			var obj = $(this);
-
-			setInterval(function() {
-                        var k = 'visibility';
-
-                        if($(obj).css(k) == 'visible')
-                        {
-                            $(obj).css(k, 'hidden');
-                        }
-                        else
-                        {
-                            $(obj).css(k, 'visible');
-                        }
-                    }, options.delay);
+			setInterval(function()
+			{
+				if($(obj).css("visibility") == "visible")
+				{
+					$(obj).css('visibility','hidden');
+				}
+				else
+				{
+					$(obj).css('visibility','visible');
+				}
+			}, options.delay);
 		});
-
-        return $;
 	}
-}(jQuery));
+}(jQuery))

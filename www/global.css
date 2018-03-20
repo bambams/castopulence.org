@@ -1,14 +1,14 @@
 a
 {
-    color: #5BAB9C;
+    color: #A0A0A0;
     font-weight: bold;
     text-decoration: underline;
 }
 
 body
 {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: "Courier New", monospace;
 }
 
@@ -19,7 +19,7 @@ del
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -91,7 +91,7 @@ ins
     border-radius: 1em;
     border-style: solid;
     border-width: 0.1em;
-    color: gray;
+    color: #A0A0A0;
     padding-bottom: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
@@ -101,13 +101,13 @@ ins
 
 #header #navigation a:hover
 {
-    border-color: black;
-    color: black;
+    border-color: white;
+    color: white;
 }
 
 #header #navigation li.current a
 {
-    color: black;
+    color: white;
     cursor: default;
     text-decoration: underline;
 }
@@ -119,7 +119,7 @@ ins
 
 #footer #copyright
 {
-    color: darkgray;
+    color: #A0A0A0;
 }
 
 #footer p
@@ -137,8 +137,8 @@ ins
     -moz-border-radius-bottomright: 1.75em;
     -webkit-border-top-left-radius: 1.75em;
     -webkit-border-bottom-right-radius: 1.75em;
-    background-color: #72D6C3;
-    border: 0.1em solid #72D6C3;
+    background-color: #0A0A0A;
+    border: 0.1em solid #0A0A0A;
     border-radius: 1.75em;
 /*    display: inline; */
     margin-left: 3em;
@@ -152,8 +152,8 @@ ins
     -moz-border-radius-bottomright: 1.75em;
     -webkit-border-top-left-radius: 1.75em;
     -webkit-border-bottom-right-radius: 1.75em;
-    background-color: white;
-    border: 0.1em solid black;
+    background-color: black;
+    border: 0.1em solid white;
     border-radius: 1.75em;
     margin-left: auto;
     margin-right: auto;
@@ -192,8 +192,8 @@ ins
     -moz-border-radius-bottomright: 1.75em;
     -webkit-border-top-left-radius: 1.75em;
     -webkit-border-bottom-right-radius: 1.75em;
-    background-color: #72D6C3;
-    border: 0.1em solid black;
+    background-color: #2F2F2F;
+    border: 0.1em solid white;
     border-radius: 1.75em;
     margin-left: 3em;
     margin-right: 3em;
@@ -207,7 +207,7 @@ ins
     -moz-border-radius-bottomright: 1.75em;
     -webkit-border-top-left-radius: 1.75em;
     -webkit-border-bottom-right-radius: 1.75em;
-    background-color: white;
+    background-color: black;
     border-radius: 1.75em;
     margin-left: auto;
     margin-right: auto;
@@ -227,7 +227,7 @@ ins
     -moz-border-radius-bottomright: 1.75em;
     -webkit-border-top-left-radius: 1.75em;
     -webkit-border-bottom-right-radius: 1.75em;
-    background-color: white;
+    background-color: black;
     border: 0.1em solid black;
     border-radius: 1.75em;
     margin: 1.75em;
@@ -271,7 +271,8 @@ ins
 
 .ieDisclaimer
 {
-    background-color: #FBF9EE;
+    background-color: black;
+    color: #FBF9EE;
     border: 1px solid #FCEFA1;
     margin-bottom: 1em;
     margin-left: 3em;
